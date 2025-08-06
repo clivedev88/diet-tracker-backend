@@ -21,4 +21,5 @@ app.get('/', (req: Request, res: Response) => {
 // Iniciar o servidor
 app.listen(PORT, () => {
      console.log((`Servidor rodando na porta http://localhost:${PORT}`));
+    //  console.log(`🚀 Servidor iniciado em: http://localhost:${PORT}`);
 });
